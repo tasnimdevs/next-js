@@ -3,7 +3,7 @@ import React from "react";
 import { Input } from "@/components/ui/input"
 
 
-const GlobarSearch = () => {
+const GlobalSearch = () => {
   return (
     <div className="relative w-full max-w-[600px] max-lg:hidden">
       <div className="background-light800_darkgradient relative flex min-h-[56px] grow items-center gap-1 rounded-xl px-4">
@@ -17,8 +17,7 @@ const GlobarSearch = () => {
         <Input 
         type="text"
         placeholder="Search globally"
-        value=""
-        className="paragraph-regular no-focus border-none shadow-none placeholder: text-dark400_light700 outline-none"
+        className="paragraph-regular no-focus border-none shadow-none placeholder background-light800_darkgradient outline-none"
         />
 
       </div>
@@ -26,4 +25,4 @@ const GlobarSearch = () => {
   );
 };
 
-export default GlobarSearch;
+export default GlobalSearch;
